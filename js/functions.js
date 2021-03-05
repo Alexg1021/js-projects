@@ -49,6 +49,12 @@ const countToTenFromNewStartingPoint = startingNumber => {
 };
 countToTenFromNewStartingPoint(5);
 
+let someVariable = 'this is a string';
+const unchangeableString = 'Cant change this';
+const anArrowFunction = (param1, param2) => {
+  console.log(param1, param2);
+};
+
 // Function that alerts user a welcome with first and last name
 const welcomeNewUser = () => {
   debugger;
